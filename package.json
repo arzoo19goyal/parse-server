@@ -1,0 +1,14 @@
+{
+  "name": "parseserver",
+  "description": "parse-server for parseServer",
+  "scripts": {
+    "start": "parse-server index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "parse-dashboard": "^2.1.0",
+    "parse-server": "^3.9.0"
+  }
+}
