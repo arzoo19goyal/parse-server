@@ -8,7 +8,7 @@ var app = express();
 
 var api = new ParseServer({
     databaseURI: 'mongodb+srv://arzoogoyal87:parsepassword@mycluster.4rdpd.mongodb.net/database?retryWrites=true&w=majority',
-    cloud: './cloud/main',
+    cloud: './cloud/main.js',
     // appId: 'parseServer87',
     appId: "myAppId",
     masterKey: 'arzoo87goyal',
